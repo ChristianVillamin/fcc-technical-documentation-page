@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <main id="main-doc">
+      <div id="nav-container">
+        <nav id="navbar">
+          <header>HTML Intro</header>
+          <a href="#Overview" class="nav-link">Overview</a>
+          <a href="#Getting_Started" class="nav-link">Getting Started</a>
+          <a href="#Text_Fundamentals" class="nav-link">Text Fundamentals</a>
+          <a href="#Creating_Hyperlinks" class="nav-link"
+            >Creating Hyperlinks</a
+          >
+          <a href="#Debugging_HTML" class="nav-link">Debugging HTML</a>
+          <a href="#HTML_Images" class="nav-link">HTML Images</a>
+        </nav>
+      </div>
+
+      <div id="docs">
+        <section class="main-section" id="Overview">
+          <header>Overview</header>
+          <hr />
+          <p>
+            At its heart, HTML is a fairly simple language made up of elements,
+            which can be applied to pieces of text to give them different
+            meaning in a document (Is it a paragraph? Is it a bulleted list? Is
+            it part of a table?), structure a document into logical sections
+            (Does it have a header? Three columns of content? A navigation
+            menu?), and embed content such as images and videos into a page.
+            This module will introduce the first two of these, and introduce
+            fundamental concepts and syntax you need to know to understand HTML.
+          </p>
+          <h1>Prerequisites</h1>
+          <p>
+            Before starting this module, you don't need any previous HTML
+            knowledge, but you should have at least basic familiarity with using
+            computers and using the web passively (i.e., just looking at it and
+            consuming content). You should have a basic work environment set up
+            (as detailed in Installing basic software), and understand how to
+            create and manage files (as detailed in Dealing with files). Both
+            are parts of our Getting started with the web complete beginner's
+            module.
+          </p>
+          <ul>
+            <li><b>Note: </b></li>
+            If you are working on a computer/tablet/other device that doesn't
+            let you create your own files, you can try out (most of) the code
+            examples in an online coding program such as JSBin or Thimble.
+          </ul>
+        </section>
+        <section class="main-section" id="Getting_Started">
+          <header>Getting Started</header>
+          <hr />
+          <p>
+            In this article we cover the absolute basics of HTML, to get you
+            started. We define elements, attributes, and all the other important
+            terms you may have heard, and where they fit into the language. We
+            also show how an HTML element is structured, how a typical HTML page
+            is structured, and explain other important basic language features.
+            Along the way, we'll play with some HTML to get you interested!
+          </p>
+
+          <h1>What is HTML?</h1>
+          <p>
+            HTML (Hypertext Markup Language) is not a programming language; it
+            is a markup language used to tell your browser how to structure the
+            web pages you visit. It can be as complicated or as simple as the
+            web developer wishes it to be. HTML consists of a series of
+            elements, which you use to enclose, wrap, or mark up different parts
+            of the content to make it appear or act a certain way. The enclosing
+            tags can make a bit of content into a hyperlink to link to another
+            page on the web, italicize words, and so on. For example, take the
+            following line of content:
+          </p>
+
+          <code>My cat is a grumpy one!</code>
+
+          <p>
+            If we wanted the line to stand by itself, we could specify that it
+            is a paragraph by enclosing it in a paragraph &lt;p&gt; element.
+          </p>
+
+          <code>&lt;p&gt;My cat is a grumpy one!&lt;p&gt;</code>
+
+          <ol>
+            <li>i2</li>
+          </ol>
+        </section>
+        <section class="main-section" id="Text_Fundamentals">
+          <header>Text Fundamentals</header>
+          <hr />
+          <p>
+            One of HTML's main jobs is to give text structure and meaning (also
+            known as semantics) so that a browser can display it correctly. This
+            article explains the way HTML can be used to structure a page of
+            text by adding headings and paragraphs, emphasizing words, creating
+            lists, and more.
+          </p>
+
+          <ul>
+            <li>
+              <b>Prerequisites: </b>Basic HTML familiarity, as covered in
+              Getting started with HTML.
+            </li>
+            <li>
+              <b>Objective: </b> Learn how to mark up a basic page of text to
+              give it structure and meaning — including paragraphs, headings,
+              lists, emphasis, and quotations.
+            </li>
+          </ul>
+          <p>
+            Before starting this module, you don't need any previous HTML
+            knowledge, but you should have at least basic familiarity with using
+            computers and using the web passively (i.e., just looking at it and
+            consuming content). You should have a basic work environment set up
+            (as detailed in Installing basic software), and understand how to
+            create and manage files (as detailed in Dealing with files). Both
+            are parts of our Getting started with the web complete beginner's
+            module.
+          </p>
+        </section>
+        <section class="main-section" id="Creating_Hyperlinks">
+          <header>Creating Hyperlinks</header>
+          <hr />
+          <p>
+            Hyperlinks are really important — they are what makes the Web a web.
+            This article shows the syntax required to make a link, and discusses
+            link best practices.
+          </p>
+          <ul>
+            <li>
+              <b>Prerequisites: </b>Basic HTML familiarity, as covered in
+              Getting started with HTML. HTML text formatting, as covered in
+              HTML text fundamentals.
+            </li>
+            <li>
+              <b>Objective: </b> To learn how to implement a hyperlink
+              effectively, and link multiple files together.
+            </li>
+          </ul>
+          <p>
+            Hyperlinks are one of the most exciting innovations the Web has to
+            offer. Well, they've been a feature of the Web since the very
+            beginning, but they are what makes the Web a Web — they allow us to
+            link our documents to any other document (or other resource) we want
+            to, we can also link to specific parts of documents, and we can make
+            apps available at a simple web address (contrast this to native
+            apps, which have to be installed and all that business.) Just about
+            any web content can be converted to a link, so that when clicked (or
+            otherwise activated) it will make the web browser go to another web
+            address (URL).
+          </p>
+
+          <code>&lt;a href="YOUR_LINK"&gt;LINK_TITLE&lt;/a&gt;</code>
+
+          <p>For example, I will create a link to the Mozilla homepage</p>
+
+          <code
+            >&lt;a href="https://www.mozilla.org"&gt;Mozilla
+            Homepage&lt;/a&gt;</code
+          >
+          <p>Result:</p>
+          <a href="https://www.mozilla.org">Mozilla Homepage</a>
+        </section>
+        <section class="main-section" id="Debugging_HTML">
+          <header>Debugging HTML</header>
+          <hr />
+          <p>
+            Writing HTML is fine, but what if something goes wrong, and you
+            can't work out where the error in the code is? This article will
+            introduce you to some tools that can help you find and fix errors in
+            HTML.
+          </p>
+          <ul>
+            <li>
+              <b>Prerequisites: </b>HTML familiarity, as covered in for example
+              Getting started with HTML, HTML text fundamentals, and Creating
+              hyperlinks.
+            </li>
+            <li>
+              <b>Objective: </b>Learn the basics of using debugging tools to
+              find problems in HTML.
+            </li>
+          </ul>
+          <h1>Debugging isn't scary</h1>
+          <p>
+            When writing code of some kind, everything is usually fine, until
+            that dreaded moment when an error occurs — you've done something
+            wrong, so your code doesn't work — either not at all, or not quite
+            how you wanted it to. For example, the following shows an error
+            reported when trying to compile a simple program written in the Rust
+            language.
+          </p>
+
+          <p>You can use the console log in JavaScript to debug. Example:</p>
+          <code>console.log(error)</code>
+        </section>
+        <section class="main-section" id="HTML_Images">
+          <header>HTML Images</header>
+          <hr />
+          <p>
+            In the beginning, the Web was just text, and it was really quite
+            boring. Fortunately, it wasn't too long before the ability to embed
+            images (and other more interesting types of content) inside web
+            pages was added. There are other types of multimedia to consider,
+            but it is logical to start with the humble &lt;img&gt; element, used
+            to embed a simple image in a webpage. In this article we'll look at
+            how to use it in depth, including the basics, annotating it with
+            captions using &lt;figure&gt;, and detailing how it relates to CSS
+            background images.
+          </p>
+          <h1>How do we put an image on a webpage?</h1>
+          <p>
+            In order to put a simple image on a webpage, we use the &lt;img&gt;
+            element. This is an empty element (meaning that it has no text
+            content or closing tag) that requires a minimum of one attribute to
+            be useful — src (sometimes spoken as its full title, source). The
+            src attribute contains a path pointing to the image you want to
+            embed in the page, which can be a relative or absolute URL, in the
+            same way as &lt;a&gt; element href attribute values.
+          </p>
+
+          <p>
+            So for example, if your image is called dinosaur.jpg, and it sits in
+            the same directory as your HTML page, you could embed the image like
+            so:
+          </p>
+          <code>&lt;img&gt; src="dinosaur.jpg"/&gt;</code>
+        </section>
+      </div>
+    </main>
+
+    <div id="toggle">
+      <nav id="back-to-top">
+        <a href="#navbar">Back To Top</a>
+      </nav>
+    </div>
+  </body>
+</html>
